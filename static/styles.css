@@ -1,0 +1,30 @@
+#messages,#channelList,#inbox {
+  overflow: auto ;
+}
+#channelList li:hover,#inbox li:hover,kbd:hover, .text-danger:hover {
+  cursor: pointer;
+}
+#channelList li,#inbox li {
+  color: #343a40!important;
+  background-color: #ffffff!important;
+  font-size: small;
+  font-style: italic;
+}
+li {
+  list-style-type: none;
+}
+body {
+  background-image: url("https://i0.wp.com/www.srimitra.co.in/wp-content/uploads/2019/08/WhatsApp-Background-Wallpaper.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#footer {
+  background-color: #343a40!important;
+  color: #ffffff;
+  text-align: center;
+  height: 3.5rem;            /* Footer height */
+}
+#smallcol {
+  background-color: #343a40!important;
+  color: #ffffff;
+}
